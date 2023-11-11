@@ -21,6 +21,7 @@ main {
     border-radius: 2rem;
     padding: 1rem;
     margin: 5rem 10rem;
+    overflow: hidden;
 }
 
 #body-text {
@@ -29,7 +30,7 @@ main {
 }
 
 .answer {
-    /*display: none;*/
+    display: none;
 }
 
 .q-a-block {
@@ -44,11 +45,15 @@ main {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
+    margin-left: -5rem;
+
+    overflow: hidden;
 }
 
 .logo {
     grid-column: 1/2;
     grid-row: 1/2;
+    align-self: center;
 }
 
 #illustration-woman-desktop {
@@ -57,12 +62,17 @@ width: 30rem;
 
 #illustration-bg-desktop {
     width: 30rem;
+    overflow: hidden;
 }
 .question {
     display: flex;
     justify-content: space-between;
     align-content: end;
     width: 100%;
+}
+
+h4:hover {
+    color: var(--highlightedtext);
 }
 
 .arrow {
