@@ -1,0 +1,25 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+:root {
+    --darktext: hsl(238, 29%, 16%);
+    --highlightedtext: hsl(14, 88%, 65%);
+    --mutedquestiontext: hsl(237, 12%, 33%);
+    --mutedanswertext: hsl(240, 6%, 50%);
+    --dividercolour: hsl(240, 5%, 91%);
+}
+
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+h4 {
+    color: var(--darktext);
+    font-weight: bold;
+}
+
+p {
+    font-size: 12px;
+    color: var(--mutedanswertext);
+}
+
