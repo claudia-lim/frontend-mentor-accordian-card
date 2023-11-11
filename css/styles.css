@@ -25,11 +25,18 @@ main {
 
 #body-text {
     grid-column: 2/3;
+    padding: 5rem;
+}
+
+.answer {
+    /*display: none;*/
 }
 
 .q-a-block {
     border-bottom: solid 1px var(--dividercolour);
+    width: 85%;
 }
+
 
 #logo-images {
     grid-column: 1/2;
@@ -53,14 +60,19 @@ width: 30rem;
 }
 .question {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-content: end;
-    width: fit-content;
+    width: 100%;
 }
 
 .arrow {
     height: 10px;
     align-self: center;
+    transition: transform 500ms;
+}
+
+.arrow:hover {
+    transform: rotate(180deg);
 }
 
 h4 {
