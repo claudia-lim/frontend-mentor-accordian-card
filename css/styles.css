@@ -72,6 +72,7 @@ width: 100%;
 
 h4:hover {
     color: var(--highlightedtext);
+    font-weight: bold;
 }
 
 .arrow {
@@ -86,7 +87,7 @@ h4:hover {
 
 h4 {
     color: var(--darktext);
-    font-weight: bold;
+    font-weight: normal;
     align-self: end;
 }
 
@@ -136,8 +137,14 @@ p {
     #body-text {
         grid-row: 2/3;
         grid-column: 1/2;
-        padding: 0.5rem;
+        padding: 1rem;
         justify-self: center;
+        align-self: center;
+        display:flex;
+        flex-direction: column;
+    }
+
+    .q-a-block {
         align-self: center;
     }
 
