@@ -29,8 +29,8 @@ main {
     padding: 5rem;
 }
 
-.answer {
-    display: block;
+.display {
+    display: none;
 }
 
 .q-a-block {
@@ -75,13 +75,22 @@ h4:hover {
     font-weight: bold;
 }
 
+h4.click {
+    color: var(--highlightedtext);
+    font-weight: bold;
+}
+
 .arrow {
     height: 10px;
     align-self: center;
     transition: transform 500ms;
 }
 
-.arrow:hover {
+/*.arrow:hover {*/
+/*    transform: rotate(180deg);*/
+/*}*/
+
+.arrow.click {
     transform: rotate(180deg);
 }
 
