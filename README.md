@@ -23,7 +23,7 @@ Users should be able to:
 
 ## My process
 
-I started with the basic HTML and CSS appearance to match the wireframes/design patterns provided.
+I started with the basic HTML and CSS appearance to match the wireframes/design patterns provided. I then added a javascript layer to add the display functionality.
 
 ### Built with
 
@@ -31,13 +31,15 @@ I started with the basic HTML and CSS appearance to match the wireframes/design 
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- [React](https://reactjs.org/) - JS library
+- Javascript
 
 ### What I learned
 
+I had to research how to add event listeners to multiple elements as intially didn't realise that using querySelectorAll returned a list. I then looped through the elements to add the click functionality.
+
 ### Continued development
 
-## Author
+I will probably rebuild this in React as I realise that each question and answer element would work as components.
 
 ## Acknowledgments
 
